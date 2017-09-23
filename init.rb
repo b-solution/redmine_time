@@ -16,6 +16,7 @@ require 'time_hook'
 Rails.application.config.to_prepare do
   Issue.send(:include, RedmineTime::IssuePatch)
   IssuesHelper.send(:include, RedmineTime::IssueHelperPatch)
+  IssuesController.send(:include, RedmineTime::IssuesControllerPatch)
   TimeEntry.send(:include, RedmineTime::TimeEntryPatch)
   TimelogController.send(:include, RedmineTime::TimelogControllerPatch)
   TimeEntryQuery.send(:include, RedmineTime::TimeEntryQueryPatch)
