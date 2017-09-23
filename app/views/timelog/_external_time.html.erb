@@ -1,0 +1,3 @@
+<% if User.current.allowed_to?(:add_external_time,  @time_entry.project) %>
+    <p><%= form.text_field :external_time, :size => 6 %></p>
+<% end %>
