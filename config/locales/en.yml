@@ -1,5 +1,5 @@
 # English strings go here for Rails i18n
 en:
   field_accept_time: Accept time
-  field_external_time: Hours
+  field_external_time: Actual Hours
   field_hours: Dev Hours
