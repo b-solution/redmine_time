@@ -2,7 +2,7 @@ Redmine::Plugin.register :redmine_time do
   name 'Redmine Time plugin'
   author 'Bilel KEDIDI'
   description 'This is a Redmine plugin that add external time'
-  version '0.0.1'
+  version '0.0.2'
   url 'http://example.com/path/to/plugin'
   author_url 'http://example.com/about'
 
